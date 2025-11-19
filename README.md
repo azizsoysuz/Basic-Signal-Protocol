@@ -41,7 +41,7 @@ This project implements X3DH Key agreement protocol and Double Ratchet algorithm
 - __`InitialMessage`__ : Defines the InitialMessage TypedDict and (de)serialization functions:
 	- Represents the initiator’s first handshake message in X3DH
 	- Includes identity & ephemeral public keys plus a one-time pre-key index
-### examples
+### Examples
 - __`example_X3DH_DoubleRatchet`__ : A standalone script test script:
 	- Demonstrates a complete X3DH handshake between two parties
 	- Runs a four-message back-and-forth using the Double Ratchet session
