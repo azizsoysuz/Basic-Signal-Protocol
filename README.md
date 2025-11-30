@@ -1,6 +1,6 @@
 # Basic Signal Protocol
 
-This project implements X3DH Key agreement protocol and Double Ratchet algorithm within the Signal Protocol in Python using cryptography and hashlib packages [[1]](#1). This code is written for educational purposes only and should not be used in production.
+This project implements X3DH Key agreement protocol and Double Ratchet algorithm within the Signal Protocol in Python using cryptography and hashlib packages [[1]](#1). This code is written for educational purposes only, focusing mainly on the privacy without adopting latest security hardenings, and should not be used in production.
 
 ## X3DH Key Agreement Protocol
   - establishes a shared secret key between two parties who mutually authenticate each other based on public keys.
